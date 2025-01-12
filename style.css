@@ -9,7 +9,7 @@
   :root {
     --bg-color: #080808;
     --second-bg-color: #101010;
-    --text-color: white;
+    --text-color: #ffffff;
     --main-color: #00ff91;
   }
   html {
@@ -324,7 +324,7 @@
 }
 
 .service-info p {
-    font-size: 1.4rem;
+    font-size: 2.2rem;
     font-weight: 600;
     line-height: 1.7;
 }
@@ -336,13 +336,32 @@ font-size: 8rem;
 .container-pair1 {
   display: flex;
   flex-direction: row;
-  gap: 2.5rem; 
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  gap: 9.5rem; 
 }
 
 .container-pair2 {
   display: flex;
   flex-direction: row;
-  gap: 2.5rem; 
+  gap: 5.5rem; 
+}
+
+.container-pair3 {
+  display: flex;
+  flex-direction: column;
+  padding-top: 3rem;
+  padding-left: 1rem;
+
+}
+
+.container-bd1 {
+  display: flex;
+  flex-direction: column;
+  padding-top: 2rem;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
 }
 
 .projects {
@@ -401,6 +420,12 @@ font-size: 8rem;
 .contact h2 {
   margin-bottom: 3rem;
   color: var(--text-color);
+}
+
+.contact p {
+  font-size: 1.8rem;
+  align-items: center;
+  text-align: center;
 }
 
 .contact form {
