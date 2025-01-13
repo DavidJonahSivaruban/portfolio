@@ -346,20 +346,20 @@
                 details and i'll get back to you as soon as possible.
             </p>
 
-            <form id="contactForm">
+<form method="post" action="https://script.google.com/macros/s/AKfycbykeTtSL_3n685gHwPsHaHA3yeMfuFEBAcg2iZ-jL_l2iwiAaiRsG7j_a8gSn5N7Jzk/exec" name="contact-form">
                 <div class="input-group">
                   <div class="input-box">
-                    <input type="text" placeholder="Full Name" required>
-                    <input type="email" placeholder="Email" required>
+                    <input type="text" name="your-name" placeholder="Full Name" required>
+                    <input type="email" name="your-email" placeholder="Email" required>
                   </div>
                   <div class="input-box">
-                    <input type="number" placeholder="Contact Number" required>
-                    <input type="text" placeholder="Subject" required>
+                    <input type="number" name="your-number" placeholder="Contact Number" required>
+                    <input type="text" name="your-subject" placeholder="Subject" required>
                   </div>
                 </div>
               
                 <div class="input-group-2">
-                  <textarea placeholder="Your Message" cols="30" rows="10" required></textarea>
+                  <textarea name="message" placeholder="Your Message" cols="30" rows="10" required></textarea>
                   <input type="submit" value="Send Message" class="btn">
                 </div>
               </form>
