@@ -335,7 +335,7 @@ font-size: 8rem;
 
 .container-pair1 {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   padding-top: 1rem;
   padding-bottom: 1rem;
   gap: 9.5rem; 
@@ -343,7 +343,7 @@ font-size: 8rem;
 
 .container-pair2 {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   gap: 5.5rem; 
 }
 
