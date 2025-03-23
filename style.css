@@ -599,28 +599,48 @@ font-size: 8rem;
 /*phone*/
 @media (max-width: 480px) {
   .header {
-    padding: 1.5rem 4%;
+    padding: 1rem 5%; /* Slightly increased padding for better spacing */
+    text-align: center; /* Ensures alignment */
+  }
+
+  .home-content {
+    text-align: center; /* Centers text content */
+    padding: 1rem 5%;
   }
 
   .home-content h1 {
-    font-size: 4rem;
+    font-size: 3.2rem; /* Reduced slightly for better fit */
+    line-height: 1.2; /* Adjusts readability */
   }
 
   .home-content h3 {
-    font-size: 2rem;
+    font-size: 1.8rem; /* Adjusted for proportional spacing */
   }
 
   .home-content p {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
+    max-width: 90%;
+    margin: 0 auto; /* Centers paragraph */
+  }
+
+  .home-img {
+    display: flex;
+    justify-content: center; /* Centers image */
   }
 
   .home-img img {
-    width: 80vw;
+    width: 75vw;
+    max-width: 300px; /* Prevents image from getting too big */
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: center;
+    gap: 1rem; /* Adds spacing between navbar items */
   }
 
   .navbar a {
-    font-size: 1.4rem;
+    font-size: 1.2rem; /* Adjusted for mobile readability */
+    padding: 0.5rem;
   }
 }
-
-
