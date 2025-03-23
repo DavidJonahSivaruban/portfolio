@@ -7,10 +7,10 @@
     font-family: "Space Grotesk",sans-serif;
   }
   :root {
-    --bg-color: #fc7200;
+    --bg-color: #080808;
     --second-bg-color: #101010;
     --text-color: #ffffff;
-    --main-color: #00ff91;
+    --main-color: #fc7200;
   }
   html {
     font-size: 60%;
